@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.statistics-slider {
+  padding-bottom: 3rem;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #D1D5DB;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4F46E5;
+}
