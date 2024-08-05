@@ -101,8 +101,8 @@ export default function Question() {
         </div>
       </div>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10 pointer-events-none">
-        <div className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 bg-purple-300 rounded-full"></div>
-        <div className="absolute top-3/4 -right-1/4 w-1/2 h-1/2 bg-indigo-300 rounded-full"></div>
+        <div className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 bg-purple-500 rounded-full"></div>
+        <div className="absolute top-3/4 -right-1/4 w-1/2 h-1/2 bg-indigo-500 rounded-full"></div>
       </div>
     </section>
   );

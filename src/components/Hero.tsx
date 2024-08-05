@@ -3,7 +3,7 @@ import { Phone, UserPlus } from 'lucide-react';
 
 export default function Hero() {
   return (　
-    <div className="py-12 px-4 sm:px-6  bg-gradient-to-br from-blue-100 via-blue-50 to-green-100">
+    <div className="py-12 px-4  opacity-90 sm:px-6  bg-gradient-to-br from-blue-100 via-blue-50 to-green-100">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <div className="space-y-4 mb-8">

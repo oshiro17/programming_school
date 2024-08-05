@@ -7,7 +7,7 @@ export default function InstructorProfile() {
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-blue-800 mb-16">講師紹介</h2>
+        <h2 className="text-4xl font-bold text-center text-blue-1000 mb-16">講師紹介</h2>
         <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
           <div className="md:flex flex-col md:flex-row">
             <div className="md:w-2/3 p-8">
@@ -21,10 +21,13 @@ export default function InstructorProfile() {
                 </div>
               </div>
               <p className="mt-2 text-gray-600">
-                N高校を卒業後、42tokyoでプログラミングを学ぶ。
-                幅広いプログラミング経験を活かし、
-                生徒一人ひとりに合わせた丁寧な指導を心がけています。
-              </p>
+  N高校を卒業後、完全無料のプログラミングスクール
+  <a href="https://42tokyo.jp/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
+    42tokyo
+  </a>
+  へでコンピューターサイエンスを学ぶ。幅広いプログラミング経験を活かし、生徒一人ひとりに合わせた丁寧な指導を心がけています。
+</p>
+
               <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex items-start">
                   <Code className="w-5 h-5 text-indigo-500 mr-2 mt-1" />
@@ -36,12 +39,16 @@ export default function InstructorProfile() {
                 <div className="flex items-start">
                   <Award className="w-5 h-5 text-indigo-500 mr-2 mt-1" />
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-700">資格・実績</h4>
-                    <ul className="text-gray-600 list-disc list-inside space-y-1">
-                      <li>42Tokyo本科生</li>
-                      <li>N高校 卒業</li>
-                    </ul>
-                  </div>
+  <h4 className="text-lg font-semibold text-gray-700">資格・実績</h4>
+  <ul className="text-gray-600 list-disc list-inside space-y-1">
+    <li>
+        42Tokyo
+    </li>
+    <li>N高校 卒業</li>
+  </ul>
+</div>
+
+
                 </div>
               </div>
               <div className="mt-8">
@@ -60,10 +67,6 @@ export default function InstructorProfile() {
                 className="h-full w-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-50"></div>
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="text-sm font-semibold">スキャンして詳細を確認</p>
-                {/* QRコードなどを追加する場合はここに配置 */}
-              </div>
             </div>
           </div>
         </div>
