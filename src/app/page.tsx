@@ -21,7 +21,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
       </Head>
 
-      {/* Fixed background image */}
       <div className="fixed inset-0 z-0">
         <Image
           src="/a.png"
@@ -33,7 +32,6 @@ export default function Home() {
         />
       </div>
 
-      {/* Scrollable content */}
       <div className="relative z-10 min-h-screen overflow-y-auto">
         <Header />
         <main>
@@ -42,7 +40,6 @@ export default function Home() {
           <Testimonials />
           <NonokaMessageSection />
           <Step />
-          {/* <Section1 /> */}
           <Question />
           <InstructorProfile />
         </main>
