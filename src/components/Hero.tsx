@@ -27,10 +27,14 @@ export default function Hero() {
               <UserPlus className="mr-2" size={24} />
               <span>公式ライン</span>
             </button>
-            <button className=" sm:w-auto bg-blue-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 flex items-center justify-center">
+            <a href="tel:123-456-7890" className="sm:w-auto bg-blue-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 flex items-center justify-center">
+          <Phone className="mr-2" size={24} />
+          <span>電話する</span>
+        </a>
+            {/* <button className=" sm:w-auto bg-blue-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 flex items-center justify-center">
               <Phone className="mr-2" size={24} />
               <span>電話する</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
